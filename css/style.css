@@ -12,9 +12,8 @@ body{
 
 /* container generale */
 .container {
-  width: 80%;
+  width: 60%;
   margin: auto;
-  padding: 20px;
 }
 /* fine container generale */
 
@@ -24,19 +23,20 @@ body{
 header {
   height: 200px;
   margin: auto;
-  margin-top: 6spx;
-  margin-bottom: 100px;
+  margin-top: 6px;
+  margin-bottom: 250px;
 }
 /* fine header rule */
 .title {
   position: relative;
-  height: 221px;
-  background-image: url(../img/header.jpg);
+  height: 350px;
+  background-image: url(../img/background-header.jpg);
   border: 12px solid white;
 }
 /*  centratura testo titolo */
 .title .text {
-  width: 80%;
+  text-align: center;
+  width: 100%;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -45,18 +45,19 @@ header {
 /*  fine centratura testo titolo */
 
 /*  formattazione testo  titolo*/
-.title .text h1, h3 {
-  text-align: center;
+.title .text h1 {
   color: white;
+
   }
 
  .title .text h1 {
-   font-weight: 900;
-   font-size: 40px;
-   padding: 10px;
+   font-size: 60px;
 
 }
-.title .text h3 {
+.title h3 {
+  color: white;
+  margin-top: 250px;
+  text-align: center;
   font-weight: lighter;
   font-size: 22px;
   font-family: 'Anton', sans-serif;
@@ -67,6 +68,7 @@ header {
 
 /* inizio menu */
 .menu {
+  width: 100%;
   padding: 20px;
   text-align: center;
   background-color: #504741;
@@ -77,7 +79,6 @@ header {
 
 /* menu list */
 .menu li {
-  height: 100%;
   font-size: 15px;
   display: inline-block;
   color: lightgrey;
@@ -88,31 +89,80 @@ header {
 /* FINE HEADER */
 
 /* INIZIO MAIN */
+
+/* main regole  */
 .main {
   width: 100%;
 }
+
+.main::after{
+
+}
+/* fine main regole  */
+
+/*  LAYOUT COLONNE */
+main .col {
+  border-radius: 2%;
+}
+.col-right, .col-left {
+  margin: auto;
+  padding: 10 10px;
+}
+/* colonna sinistra */
 .col-left {
   margin: auto;
   float: left;
   width: 20%;
-  height: 500px;
-  background-color: red;
+  background-color: white;
 }
 
+.col-left .list-col-sx li {
+  font-size: 15px;
+  list-style: none;
+  color: green;
+  padding: 5px;
+}
+/* fine colonna sinistra */
+
+/* colonna centrale */
 .col-center {
   margin: auto;
   float: left;
   width: 50%;
-  height: 500px;
-  background-color: pink;
+  background-color: white;
   margin: 0 5%;
 }
+main .col p {
+  width: 100%;
+  padding: 20px;
+}
+.col-center h2 {
+  width: 100%;
+  padding: 20px;
+  text-align: left;
+}
+/* fine colonna centrale */
+
+/* colonna destra */
 
 .col-right {
   margin: auto;
   float: left;
   width: 20%;
-  height: 500px;
-  background-color: yellow;
 }
+.box {
+  height: 50%;
+  background-color: WHITE;
+  margin-bottom: 50px;
+}
+
+
+
+
+
+
+/* fine colonna destra */
+
+/* fine layout colonne */
+
 /* FINE MAIN */
