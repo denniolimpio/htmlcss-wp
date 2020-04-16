@@ -12,18 +12,20 @@ body{
 
 /* container generale */
 .container {
-  width: 1024px;
+  width: 80%;
   margin: auto;
+  padding: 20px;
 }
 /* fine container generale */
 
+/* INIZIO HEADER */
+
 /* header rule */
 header {
-
   height: 200px;
   margin: auto;
-  margin-top:30px;
-background-color: red;
+  margin-top: 6spx;
+  margin-bottom: 100px;
 }
 /* fine header rule */
 .title {
@@ -31,8 +33,6 @@ background-color: red;
   height: 221px;
   background-image: url(../img/header.jpg);
   border: 12px solid white;
-
-
 }
 /*  centratura testo titolo */
 .title .text {
@@ -51,14 +51,14 @@ background-color: red;
   }
 
  .title .text h1 {
-  font-weight: bolder;
-  font-size: 48px;
-  padding: 10px;
-  font-family: 'Lilita One', cursive;
+   font-weight: 900;
+   font-size: 40px;
+   padding: 10px;
+
 }
 .title .text h3 {
   font-weight: lighter;
-  font-size: 19px;
+  font-size: 22px;
   font-family: 'Anton', sans-serif;
   font-family: 'Abril Fatface', cursive;
   font-family: 'Montserrat', sans-serif;
@@ -67,16 +67,52 @@ background-color: red;
 
 /* inizio menu */
 .menu {
-  width: 100%;
+  padding: 20px;
+  text-align: center;
   background-color: #504741;
   height: 50px;
-  position: relative;
 
 }
-.list {
+/* fine menu */
 
+/* menu list */
+.menu li {
+  height: 100%;
+  font-size: 15px;
+  display: inline-block;
+  color: lightgrey;
+  padding-left: 10px;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
- li{
-display: inline-block;
+/* fine menu lista */
+/* FINE HEADER */
 
+/* INIZIO MAIN */
+.main {
+  width: 100%;
 }
+.col-left {
+  margin: auto;
+  float: left;
+  width: 25%;
+  height: 500px;
+  background-color: red;
+}
+
+.col-center {
+  margin: auto;
+  float: left;
+  width: 40%;
+  height: 500px;
+  background-color: pink;
+  margin: 0 5%;
+}
+
+.col-right {
+  margin: auto;
+  float: left;
+  width: 25%;
+  height: 500px;
+  background-color: yellow;
+}
+/* FINE MAIN */
