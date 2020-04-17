@@ -20,11 +20,10 @@ body{
 
 /* header rule */
 header {
-  height: 200px;
   margin: auto;
   margin-top: 5px;
-  margin-bottom: 240px;
-}
+  margin-bottom: 30px;
+  }
 /* fine header rule */
 header >.title {
   position: relative;
@@ -112,7 +111,6 @@ main .col {
 }
 .col-right, .col-left {
   margin: auto;
-  padding: 10px;
 }
 /* colonna sinistra */
 .col-left {
