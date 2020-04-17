@@ -22,10 +22,11 @@ body{
 header {
   margin: auto;
   margin-top: 5px;
-  margin-bottom: 30px;
+  margin-bottom: 30
   }
 /* fine header rule */
 header >.title {
+
   position: relative;
   height: 350px;
   background-image: url(../img/background-header.jpg);
@@ -33,6 +34,7 @@ header >.title {
 }
 /*  centratura testo titolo */
 header .title .text {
+
   border: 3px solid white;
   position: absolute;
   top: 50%;
@@ -47,7 +49,8 @@ header .title .text h1, h3 {
   color: white;
   }
 header .title .text h1 {
-   font-size: 60px;
+  padding: 4px solid white;
+  font-size: 60px;
 }
 .title > h3 {
   margin-top: 250px;
@@ -61,6 +64,7 @@ header .title .text h1 {
 
 /* inizio menu */
 header .menu {
+  margin-bottom: 30px;
   padding: 20px;
   text-align: center;
   background-color: grey;
